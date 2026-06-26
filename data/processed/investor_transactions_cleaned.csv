@@ -1,0 +1,11 @@
+transaction_id,investor_id,scheme_code,transaction_date,transaction_type,amount,state,kyc_status
+T001,I001,125497,2026-01-05,Sip,5000,Telangana,Verified
+T002,I002,119551,2026-01-10,Lumpsum,25000,Karnataka,Verified
+T003,I003,120503,2026-02-15,Redemption,10000,Maharashtra,Verified
+T004,I004,118632,2026-02-20,Sip,3000,Tamil Nadu,Pending
+T005,I005,119092,2026-03-01,Lumpsum,40000,Delhi,Verified
+T006,I006,120841,2026-03-18,Sip,7000,Telangana,Verified
+T007,I007,100001,2026-04-02,Lumpsum,50000,Kerala,Verified
+T008,I008,100002,2026-04-12,Sip,6000,Andhra Pradesh,Pending
+T009,I009,100003,2026-05-05,Redemption,15000,Gujarat,Verified
+T010,I010,100004,2026-05-22,Sip,8000,Rajasthan,Verified
