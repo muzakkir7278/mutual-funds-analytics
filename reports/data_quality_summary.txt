@@ -1,0 +1,491 @@
+Day 1 Data Quality Summary
+Generated at: 2026-06-26 10:56:40
+Raw data folder: C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw
+CSV files found: 16
+
+================================================================================
+FILE: aum_history.csv
+================================================================================
+Shape: (10, 3)
+
+Dtypes:
+scheme_code     int64
+date           object
+aum_crore       int64
+dtype: object
+
+Head:
+   scheme_code        date  aum_crore
+0       125497  2026-06-20      25500
+1       119551  2026-06-20      36200
+2       120503  2026-06-20      48500
+3       118632  2026-06-20      22100
+4       119092  2026-06-20      32800
+
+Missing values per column:
+scheme_code    0
+date           0
+aum_crore      0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: benchmark_indices.csv
+================================================================================
+Shape: (5, 2)
+
+Dtypes:
+category           object
+benchmark_index    object
+dtype: object
+
+Head:
+                   category                             benchmark_index
+0                 Large Cap                               Nifty 100 TRI
+1                   Mid Cap                        Nifty Midcap 150 TRI
+2                    Liquid                    CRISIL Liquid Debt Index
+3            Short Duration            CRISIL Short Duration Debt Index
+4  Dynamic Asset Allocation  Nifty 50 Hybrid Composite Debt 50:50 Index
+
+Missing values per column:
+category           0
+benchmark_index    0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: category_mapping.csv
+================================================================================
+Shape: (5, 4)
+
+Dtypes:
+category              object
+sub_category          object
+risk_grade            object
+investment_horizon    object
+dtype: object
+
+Head:
+  category              sub_category       risk_grade investment_horizon
+0   Equity                 Large Cap             High  5 years and above
+1   Equity                   Mid Cap        Very High       5 to 7 years
+2     Debt                    Liquid              Low      0 to 3 months
+3     Debt            Short Duration         Moderate       1 to 3 years
+4   Hybrid  Dynamic Asset Allocation  Moderately High       3 to 5 years
+
+Missing values per column:
+category              0
+sub_category          0
+risk_grade            0
+investment_horizon    0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: expense_ratio.csv
+================================================================================
+Shape: (10, 3)
+
+Dtypes:
+scheme_code        int64
+expense_ratio    float64
+plan_type         object
+dtype: object
+
+Head:
+   scheme_code  expense_ratio plan_type
+0       125497           1.05    Direct
+1       119551           0.92    Direct
+2       120503           1.08    Direct
+3       118632           1.12    Direct
+4       119092           0.95    Direct
+
+Missing values per column:
+scheme_code      0
+expense_ratio    0
+plan_type        0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: fund_manager.csv
+================================================================================
+Shape: (10, 3)
+
+Dtypes:
+scheme_code          int64
+fund_manager        object
+experience_years     int64
+dtype: object
+
+Head:
+   scheme_code    fund_manager  experience_years
+0       125497   Prashant Jain                20
+1       119551   Sohini Andani                18
+2       120503  Sankaran Naren                22
+3       118632  Manish Gunwani                17
+4       119092   Jinesh Gopani                15
+
+Missing values per column:
+scheme_code         0
+fund_manager        0
+experience_years    0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: fund_master.csv
+================================================================================
+Shape: (10, 7)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+fund_house      object
+category        object
+sub_category    object
+risk_grade      object
+launch_date     object
+dtype: object
+
+Head:
+   scheme_code                                   scheme_name                    fund_house category sub_category risk_grade launch_date
+0       125497               HDFC Top 100 Fund - Direct Plan              HDFC Mutual Fund   Equity    Large Cap       High  2013-01-01
+1       119551               SBI Bluechip Fund - Direct Plan               SBI Mutual Fund   Equity    Large Cap       High  2013-01-01
+2       120503  ICICI Prudential Bluechip Fund - Direct Plan  ICICI Prudential Mutual Fund   Equity    Large Cap       High  2013-01-01
+3       118632     Nippon India Large Cap Fund - Direct Plan      Nippon India Mutual Fund   Equity    Large Cap       High  2013-01-01
+4       119092              Axis Bluechip Fund - Direct Plan              Axis Mutual Fund   Equity    Large Cap       High  2013-01-01
+
+Missing values per column:
+scheme_code     0
+scheme_name     0
+fund_house      0
+category        0
+sub_category    0
+risk_grade      0
+launch_date     0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_118632_nippon_large_cap.csv
+================================================================================
+Shape: (3316, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                        scheme_name        date       nav
+0       118632  Nippon India Large Cap Fund - Direct Plan Grow...  25-06-2026  101.1917
+1       118632  Nippon India Large Cap Fund - Direct Plan Grow...  24-06-2026  101.0387
+2       118632  Nippon India Large Cap Fund - Direct Plan Grow...  23-06-2026  100.4605
+3       118632  Nippon India Large Cap Fund - Direct Plan Grow...  22-06-2026  101.3654
+4       118632  Nippon India Large Cap Fund - Direct Plan Grow...  19-06-2026  100.7824
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_119092_axis_bluechip.csv
+================================================================================
+Shape: (3583, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                        scheme_name        date        nav
+0       119092  HDFC Money Market Fund - Growth Option - Direc...  25-06-2026  6209.1907
+1       119092  HDFC Money Market Fund - Growth Option - Direc...  24-06-2026  6204.4770
+2       119092  HDFC Money Market Fund - Growth Option - Direc...  23-06-2026  6200.8511
+3       119092  HDFC Money Market Fund - Growth Option - Direc...  22-06-2026  6199.4871
+4       119092  HDFC Money Market Fund - Growth Option - Direc...  19-06-2026  6195.7815
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_119551_sbi_bluechip.csv
+================================================================================
+Shape: (3254, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                        scheme_name        date       nav
+0       119551  Aditya Birla Sun Life Banking & PSU Debt Fund ...  25-06-2026  106.3057
+1       119551  Aditya Birla Sun Life Banking & PSU Debt Fund ...  24-06-2026  106.1268
+2       119551  Aditya Birla Sun Life Banking & PSU Debt Fund ...  23-06-2026  106.0410
+3       119551  Aditya Birla Sun Life Banking & PSU Debt Fund ...  22-06-2026  105.9850
+4       119551  Aditya Birla Sun Life Banking & PSU Debt Fund ...  19-06-2026  105.9219
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_120503_icici_bluechip.csv
+================================================================================
+Shape: (3325, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                        scheme_name        date       nav
+0       120503  Axis ELSS Tax Saver Fund - Direct Plan - Growt...  25-06-2026  108.3758
+1       120503  Axis ELSS Tax Saver Fund - Direct Plan - Growt...  24-06-2026  108.2944
+2       120503  Axis ELSS Tax Saver Fund - Direct Plan - Growt...  23-06-2026  107.5421
+3       120503  Axis ELSS Tax Saver Fund - Direct Plan - Growt...  22-06-2026  108.4681
+4       120503  Axis ELSS Tax Saver Fund - Direct Plan - Growt...  19-06-2026  107.9636
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_120841_kotak_bluechip.csv
+================================================================================
+Shape: (3319, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                       scheme_name        date       nav
+0       120841  quant Mid Cap Fund - Growth Option - Direct Plan  25-06-2026  249.3120
+1       120841  quant Mid Cap Fund - Growth Option - Direct Plan  24-06-2026  249.8412
+2       120841  quant Mid Cap Fund - Growth Option - Direct Plan  23-06-2026  249.9814
+3       120841  quant Mid Cap Fund - Growth Option - Direct Plan  22-06-2026  252.0694
+4       120841  quant Mid Cap Fund - Growth Option - Direct Plan  19-06-2026  251.5713
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: live_nav_125497_hdfc_top_100_direct.csv
+================================================================================
+Shape: (3109, 4)
+
+Dtypes:
+scheme_code      int64
+scheme_name     object
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code                                scheme_name        date       nav
+0       125497  SBI Small Cap Fund - Direct Plan - Growth  25-06-2026  203.9157
+1       125497  SBI Small Cap Fund - Direct Plan - Growth  24-06-2026  205.0655
+2       125497  SBI Small Cap Fund - Direct Plan - Growth  23-06-2026  203.5443
+3       125497  SBI Small Cap Fund - Direct Plan - Growth  22-06-2026  204.1263
+4       125497  SBI Small Cap Fund - Direct Plan - Growth  19-06-2026  202.0761
+
+Missing values per column:
+scheme_code    0
+scheme_name    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: nav_history.csv
+================================================================================
+Shape: (22, 3)
+
+Dtypes:
+scheme_code      int64
+date            object
+nav            float64
+dtype: object
+
+Head:
+   scheme_code        date      nav
+0       125497  2026-06-20  1025.45
+1       125497  2026-06-21  1028.30
+2       125497  2026-06-22  1031.10
+3       119551  2026-06-20    98.45
+4       119551  2026-06-21    99.10
+
+Missing values per column:
+scheme_code    0
+date           0
+nav            0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: portfolio_holdings.csv
+================================================================================
+Shape: (12, 4)
+
+Dtypes:
+scheme_code             int64
+company_name           object
+sector                 object
+holding_percentage    float64
+dtype: object
+
+Head:
+   scheme_code         company_name                  sector  holding_percentage
+0       125497  Reliance Industries                  Energy                7.25
+1       125497            HDFC Bank      Financial Services                8.10
+2       125497              Infosys  Information Technology                5.60
+3       119551           ICICI Bank      Financial Services                7.95
+4       119551      Larsen & Toubro            Construction                4.85
+
+Missing values per column:
+scheme_code           0
+company_name          0
+sector                0
+holding_percentage    0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: returns.csv
+================================================================================
+Shape: (10, 6)
+
+Dtypes:
+scheme_code             int64
+one_month_return      float64
+three_month_return    float64
+six_month_return      float64
+one_year_return       float64
+three_year_return     float64
+dtype: object
+
+Head:
+   scheme_code  one_month_return  three_month_return  six_month_return  one_year_return  three_year_return
+0       125497              2.10                6.20               9.5             17.8              21.40
+1       119551              1.95                5.80               8.9             16.5              20.10
+2       120503              2.25                6.50               9.8             18.2              22.00
+3       118632              2.40                6.75              10.1             19.0              23.25
+4       119092              1.80                5.40               8.2             15.9              19.50
+
+Missing values per column:
+scheme_code           0
+one_month_return      0
+three_month_return    0
+six_month_return      0
+one_year_return       0
+three_year_return     0
+dtype: int64
+
+Duplicate rows: 0
+
+================================================================================
+FILE: risk_metrics.csv
+================================================================================
+Shape: (10, 5)
+
+Dtypes:
+scheme_code             int64
+standard_deviation    float64
+beta                  float64
+sharpe_ratio          float64
+alpha                 float64
+dtype: object
+
+Head:
+   scheme_code  standard_deviation  beta  sharpe_ratio  alpha
+0       125497               14.25  0.95          1.10   2.40
+1       119551               13.90  0.92          1.05   2.10
+2       120503               14.60  0.98          1.12   2.55
+3       118632               15.10  1.02          1.18   2.90
+4       119092               13.50  0.88          1.00   1.85
+
+Missing values per column:
+scheme_code           0
+standard_deviation    0
+beta                  0
+sharpe_ratio          0
+alpha                 0
+dtype: int64
+
+Duplicate rows: 0
+
+FUND MASTER EXPLORATION
+--------------------------------------------------------------------------------
+
+Fund houses (fund_house) - Count: 6
+['Axis Mutual Fund', 'HDFC Mutual Fund', 'ICICI Prudential Mutual Fund', 'Kotak Mahindra Mutual Fund', 'Nippon India Mutual Fund', 'SBI Mutual Fund']
+
+Categories (category) - Count: 3
+['Debt', 'Equity', 'Hybrid']
+
+Sub-categories (sub_category) - Count: 5
+['Dynamic Asset Allocation', 'Large Cap', 'Liquid', 'Mid Cap', 'Short Duration']
+
+Risk grades (risk_grade) - Count: 5
+['High', 'Low', 'Moderate', 'Moderately High', 'Very High']
+
+AMFI / SCHEME CODE VALIDATION
+--------------------------------------------------------------------------------
+Total fund_master codes: 10
+Total nav_history codes: 10
+Matched codes: 10
+Missing codes from nav_history: 0
+Validation passed: every fund_master code exists in nav_history.

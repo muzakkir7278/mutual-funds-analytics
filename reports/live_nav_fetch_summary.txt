@@ -1,0 +1,8 @@
+Live NAV Fetch Summary
+Generated at: 2026-06-26 10:56:26
+SUCCESS: 125497 - HDFC Top 100 Direct -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_125497_hdfc_top_100_direct.csv
+SUCCESS: 119551 - SBI Bluechip -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_119551_sbi_bluechip.csv
+SUCCESS: 120503 - ICICI Bluechip -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_120503_icici_bluechip.csv
+SUCCESS: 118632 - Nippon Large Cap -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_118632_nippon_large_cap.csv
+SUCCESS: 119092 - Axis Bluechip -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_119092_axis_bluechip.csv
+SUCCESS: 120841 - Kotak Bluechip -> C:\Users\MOHAMMAD MUZAKKIR\Downloads\mutual_fund_analytics_day1_files\mutual_fund_analytics_day1\data\raw\live_nav_120841_kotak_bluechip.csv

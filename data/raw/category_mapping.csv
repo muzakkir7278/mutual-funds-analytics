@@ -1,0 +1,6 @@
+category,sub_category,risk_grade,investment_horizon
+Equity,Large Cap,High,5 years and above
+Equity,Mid Cap,Very High,5 to 7 years
+Debt,Liquid,Low,0 to 3 months
+Debt,Short Duration,Moderate,1 to 3 years
+Hybrid,Dynamic Asset Allocation,Moderately High,3 to 5 years
